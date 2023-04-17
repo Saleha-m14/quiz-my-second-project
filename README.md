@@ -1,108 +1,308 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Saleha Mohammadi,
+# Table of contents
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+0. [Introduction](#introduction "Introduction")
+1. [Project Goals](#project-goals "ProjectGoals")
+ + [User Goals](#user-goals "User Goals")
+ + [Site Owner Goals](#site-owner-goal "Site Ower Goals")
+2. [User Experience](#user-experience "User Experience")
+ + [Target Audience](#target-audience "Target Audience")
+ + [User Requirements and Expectations](#user-requirements-and-expections "User Requirements and Expections")
+ + [User Stories](#usr-stories "User Stories")
+3. [Design](#design "Design") 
+ + [Design Choices](#design-choices "Design Choices")
+ + [Colour](#colour "Colour")
+ + [Fonts](#fonts "Fonts")
+ + [Wireframes](#wireframes "Wireframes")
+4. [Technologies Used](#technologies-used "Technologies Used")
+ + [Languages](#languages "Languages")
+ + [Frameworks & Tools](#frameworks-and-tools "Frameworks & Tools")
+5. [Features](#features "Features")
+6. [Testing](#testing "Testing")
+ + [Html Validation](#html-validation "Html Validation")
+ + [CSS Validation](#css-validation "CSS Validation")
+ + [Accessibility](#accessibility "Accessibility")
+ + [Performance](#performance "Performance")
+ + [Device Testing](#device-testing "Device Testing")
+ + [Browser Compatibility](#browser-compatility "Browser Compatility")
+ + [Testing User Stories](#testing-user-stories "Testing User Stories")
+7. [Bugs](#bugs "Bugs")
+8. [Deployment](#deployment "Deployment")
+9. [Credits](#credits "Credits")
+10. [Acknowledgements](#acknowledgements "Acknowledgements")
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Introduction
 
-`python3 -m http.server`
+Test English Vocabulary is a website that help users to test their English vocabulary and undrestand their level of English.
+It is designed for those who are eager to improve their knowledge and learn new words in English.
 
-A blue button should appear to click: _Make Public_,
+## Project Goals
 
-Another blue button should appear to click: _Open Browser_.
+The goal of this project is to create a quiz that tests users English vocabulary and help them learn new words.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### User Goals
 
-A blue button should appear to click: _Make Public_,
++ To test their English Vocabulary
++ Be able to learn new words in Enlish
 
-Another blue button should appear to click: _Open Browser_.
+### Site Owner Goals
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
++ Develop a Javascript quiz platform
++ Make the design simple and user friendly
++ Make the page responsive and accessible
++ Provide fast and Engaging content to users
 
-To log into the Heroku toolbelt CLI:
+## User Experience 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Target Audince
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
++ Those who want to be challenged and entertained
++ Those who are interested to learn new words and improve their language skills
++ Those who want to test their English vocabulary
 
-------
+### User Requiements and Expectations 
 
-## Release History
++ Webpage that has a simple and attractive design
++ Useful words
++ Responsive on different devices
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Design
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+This site is designed to enganging and simple quiz platform.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Design Choices
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Colour
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+The color palette was created using [Coolors](https://coolors.co
+)
+The colors that are used to design this site are eye-catching and the contexts are easily readable.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Fonts 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Fonts that are chosen for this website is Libre Baskerville from Google fonts with a fall back of serif. That is readble.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Structure
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Wireframes
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Technologies Used
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Languages 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
++ HTML
++ CSS
++ Javascript
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Frameworks & Tools
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
++ 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+# Visit Bamiyan Afghanistan
 
-**So….?**
+![This image shows that it is resposive to every device](assets/images/readmCompatibilitysponsive.png
+)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+The Bamiyan, Afghanistan website is designed for tourists who are interested in visiting historical places. Users of this website will be able to find all the needed information about Bamiyan. The must-see places that are Boddhas Statics and Band-e Amir and also Social media links are added to this page.
 
-**Can I opt out?**
+Requirements for the project is that the website has to be static and responsive using HTML5 and CSS3.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+A live version of the project can be found here - 
+https://saleha-m14.github.io/BAMIYAN-MY-1PROJECT/
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+# Tablel of Contents
 
----
++ [UX](#ux "UX")
+  + [User Demographic](#user-demographic "User Demographic")
+  + [Site Purpose](#site-purpose "Site Purpose")
+  + [Site Goal](#site-goal "Site goal")
+  + [Requirements](#requirements "Requirements")
+  + [Design](#design "Design")
+    + [Colors](#colors "Colors")
+    + [Typography](#typography "Typography")
+    + [Images](#images "Images")
++ [Features](#features "Features")
+  + [Existing Features](#existing-features "Existing Features")
+    + [Header With Webpage Name and Navigation Bar Section](#header-with-webpage-name-and-navigation-bar-section "Header With Webpage Name and Navigation Bar Section")
+    - [Home Page Main Image Section](#home-page-main-image-section "Home Page Main Image Section")
+    - [Boddha Statics](#boddha-statics "Boddha Statics")
+    - [Band-e Amir](#band-e-amir "Band-e Amir")
+    - [Video](#video "video")
+    - [Footer](#footer "Footer")
+- [Technologies Used](#technologies-used "Technologies Used")
+- [Testing](#testing "Testing")
+  - [Validator Testing](#validator-testing "Validator Testing")
+  - [Unfixed Bugs](#unfixed-bugs "Unfixed Bugs")
+- [Deployment \& Usage](#deployment--usage)
+  - [Remote Deployment](#remote-deployment)
+  - [How To Fork](#how-to-fork)
+  - [How To Clone](#how-to-clone)
+- [Media](#media "Media")
 
-Happy coding!
+## UX
+
+### User Demographic
+
+This website is dedicated to:
+
+ - Tourists who are intrested to visit Afghanistan.
+ - People around the world that likes to see historical places.
+ - Those who wants to know more about Bamiyan.
+
+### Site Purpose
+
+The purpose of this webpage is to share information about this historical province that is located in Afghanistan. It is intact and has a natural appearance.
+
+### Site Goal
+
+This site is designed for its visitors to get to know the beautiful and historical province of Bamiyan and the Buddha staues and the Band-e Amir dam that is located there.
+
+### Requirements
+
+This is a responsive webpage that I have created by using the technologies that I have learned. The development process needs to be well documented through a version control system such as GitHub. 
+It is created using HTML and CSS.
+
+### Design
+
+This is the first webpage that I have worked on therfore, the design has been infuenced by the "Love Running" project.
+
+My purpose was to design a website that includes informatin about this historical province named Bamiyan. And to let users know what can they do at this place. Why it attracts the attention of viewers.
+
+The navigation menu is on the top of the webpage and the website is devided into many sections. The links to the social networks is addded to the bottom of the page.
+
+#### Colors
+
+The color palette was created using [Coolors](https://coolors.co
+)
+
+![colors used](assets/images/readme-images/colors.png
+)
+
+
+#### Typography 
+
+The [Barlow Condensed](https://fonts.google.com/specimen/Barlow+Condensed) was is chosen as the main font with a fallback of sans-serif. The font-weight of 300 is used.
+
+#### Images 
+
+
+![Video of Bamiyan](assets/images/readme-images/video.png)
+
+#### Footer
+
+![Site Footer](assets/images/readme-images/site-footer.png)
+
+- Footer contains three social media links (Facebook, Twitter, and Youtube)
+- This section includes links that help users to access social medial platforms easily.
+- The color of this section is completely different from other parts.
+
+### Technologies Used
+
+- HTML
+- CSS
+
+![Lnaguages used](assets/images/readme-images/languages.png)
+
+
+### Testing
+
+List of the main issues:
+
+1. In the idex.html file the width and height attributes were added for the images of the Boddhas and Band-e Amir section and while validating the code with W3C Validator it caused an error.
+- Solution: Removed the width and height attributes from index.html and added the width and height for images in style.css.
+2. The color of heading was not visible.
+- Solution: Changed colors by using Coolers that match the whole page.
+3. There was an error that said the fourth section lacks heading.
+- Added heading and div to that section.
+4. The second and third sections texts and images were not responsive to smaller devices.
+- Solution: On the style.css media query was added to be responsive to smaller devices. And the width and height was changed accordingly.
+5. The cover text on the first section of the page was disapperaring on the right side on the width of samller than 446px.
+- Solution: The bottom reduced to 105px, left to 94px.
+
+Apart from these issues that I mentioned there have been several minor issues. The majority of these issues have been due to miss spelled tags, attributes, closing tag, and other mistakes.
+
+### Validator Testing
+
+- HTML
+  - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fangelicaguimaraes.github.io%2Fmagnolia_tree%2Findex.html)
+
+![W3C Validator](assets/images/readme-images/html-valid.png)
+
+- CSS
+  - No errors were returned when passing through the official [(Jigsaw validator)](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fangelicaguimaraes.github.io%2Fmagnolia_tree%2Findex.html&usermedium=all&vextwarning=&warning=1)
+
+![W3C CSS Validator](assets/images/readme-images/css-valid.png)
+
+- lighthouse testing
+![lighthouse testing](assets/images/readme-images/lighthouse-testing.png)
+
+
+### Unfixed Bugs
+
+- All bugs were fixed and added to testing.
+
+## Deployment & Usage
+
+### Remote Deployment
+The site was deployed to GitHub pages. To deploy the website, the following steps were taken:
+* In the GitHub repository, navigate to the Settings tab
+* On the left side menu, on the section Code and automation, click on Pages.
+* From the source section drop-down menu, select the Deploy from a branch.
+* From the branch section drop-down menu, select main, right on the side select /root.
+* Once the the branch menus have been selected, github will create the page. It might take a few minutes. Once it is done a link will show up on the top of the page.
+
+### How To Fork
+To fork the repository:
+* Log in (or sign up) to [Github](https://github.com/).
+* Go to the repository for this project: [Fem Code](https://github.com/panzek/fem-code).
+* Click the Fork button in the top right corner.
+
+### How To Clone
+
+To clone the repository:
+* Log in (or sign up) to [Github](https://github.com/).
+* Go to the repository for this project: [Fem Code](https://github.com/panzek/fem-code).
+* Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+* Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+* Type 'git clone' into the terminal and then paste the link you copied in step 3.
+* Press enter.
+
+<br>
+
+The live version of the project is deployed at GitHub pages.
+
+The procedure for deployment followed the "Creating your site" steps provided in [GitHub Docs.](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+
+1. Log into GitHub.
+2. Locate the GitHub Repository that shall be deployed live.
+3. At the top of the repository, select Settings from the menu items.
+4. Scroll down the Settings page to the ”GitHub Pages" section and click on the ”Check it out here!”
+5. At the ”Source” section choose ”main” as Branch and root as folder and click ”Save”
+6. The website will deploy and the pages refreshes to provide the live link to the project.
+
+The live link can be found here - https://saleha-m14.github.io/BAMIYAN-MY-1PROJECT/
+
+## Content
+
+- The design of the project is inspired by Code Institutes ”Love Running” project. The context of the page is written by the author.
+
+## Media
+
+- All images were downloaded from [google/Bamiyan images](https://www.google.com/search?q=bamyan+province&rlz=1C1GCEO_enDE1038DE1038&sxsrf=AJOqlzXR9617eb_IUbHaqAuZN_z1Y2-wVQ:1679244354676&source=lnms&tbm=isch&sa=X&ved=2ahUKEwigmoHauOj9AhU6RPEDHerkBWcQ_AUoAXoECAEQAw&biw=1280&bih=544&dpr=1.5)
+.
+
+[Back to top](#visit-bamiyan-afghanistan)
+
