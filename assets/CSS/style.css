@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 body {
-	background-color: #A8619C;
+	
+	background: linear-gradient(#A8619C, blueviolet, blue);
 	font-family: 'Libre Baskerville', serif;
 }
 #container {
@@ -15,12 +16,16 @@ body {
 	box-shadow: 10px 5px 10px 5px black;
 
 }
+#answer-button {
+	text-align: center;
+	margin: 10px auto 0;
+}
 .btn {
 	background-color: #F69AC3;
 	padding: 12px;
 	border: blueviolet 1.5px solid;
 	border-radius: 8px;
-	margin: 4px;
+	margin: 2px;
 	display: block;
 	width: 320px;
 	font-family: 'Libre Baskerville', serif;
@@ -29,19 +34,29 @@ body {
 
 
 }
-.btn:hover {
-	background-color: blueviolet;
+
+
+#score-title {
+	margin: 12px auto 0;
 }
-#next-btn:hover {
+.next-btn:hover {
 	background-color: blue;
 }
 #next-btn {
-	margin: 15px auto 0;
+	margin: 10px auto 0;
 	width: 65px;
 	border-radius: 0;
 	padding: 6px;
 	background-color: #A8619C;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: bold;
+	
 
+}
+.check-answers {
+	width: 120px;
+	margin-top: 0;
+	
 }
 #answers {
 	margin: 20px auto 0;
